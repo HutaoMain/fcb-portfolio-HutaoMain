@@ -1,0 +1,99 @@
+/*
+
+	ctrl shift /
+
+*/
+
+* {
+
+	font-family: "Roboto", sans-serif;
+}
+
+/*font for head 1 and 2*/
+
+h1, h2 {
+
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+
+	height: auto;
+	width: 250px; 
+}
+
+/* #landing is ID = "landing" */
+#landing{
+
+	/* vh - viewport height - measurement based on the 
+	.height of the web page and the device you're currently 
+	viewing the page in*/
+	height: 80vh;
+
+
+	/* We can manipulate the contents of 
+	an element using flexbox*/
+	display: flex;
+
+	/* Arrange the contents of an element with flex as column */
+	flex-direction: column;
+
+	/* center all contents of an element with flext as column (horizontally) */
+	align-items: center;
+
+	/*center all contents of an element with flex as column (vertically) */
+	justify-content: center;
+
+}
+
+#gallery {
+
+	/* vh - viewport height - measurement based on the 
+	.height of the web page and the device you're currently 
+	viewing the page in*/
+	height: 75vh;
+
+
+	/* We can manipulate the contents of 
+	an element using flexbox*/
+	display: flex;
+
+	/* Arrange the contents of an element with flex as column */
+	flex-direction: column;
+
+	/* center all contents of an element with flext as column (horizontally) */
+	align-items: center;
+
+	/*center all contents of an element with flex as column (vertically) */
+	justify-content: center;
+
+}
+
+ul {
+
+	list-style: none;
+	padding: 0;
+}
+
+h2 
+{
+	/*hex decimal can be added as a value for color. 
+	This will use to specify particular color*/
+	color: #007bff;
+}
+
+
+.tools{
+
+	border: 5px solid #f2f2f2;
+	padding: 25px;
+	margin: 20px;
+	height: 200px;
+	/*the width of this element is atleast 75% of the container*/
+	width: 75%;
+}
+
+html {
+
+	scroll-behavior: smooth;
+}
